@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-class {
+    object-fit: cover;
+    width: 100%;
+    height: 28.90vw;
+}
+
+.cat_img {
+    width: 6.77vw;
+    height: 6.77vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.category-section {
+    width: 200px;
+    overflow: auto;
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1.25rem;
+}
+
+.pocket_img {
+    width: 25.05vw;
+    height: 23.33vw;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.bannner-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/icons/Liquor Website assets/Group 50784.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
