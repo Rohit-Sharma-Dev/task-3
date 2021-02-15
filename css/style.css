@@ -3,6 +3,141 @@
     padding: 0;
 }
 
+@font-face {
+    src: url("/fonts/Poppins-Black.ttf");
+    font-family: pooppins-black;
+}
+
+@font-face {
+    src: url("/fonts/Poppins-BlackItalic.ttf");
+    font-family: poppins-black-italic;
+}
+
+@font-face {
+    src: url("/fonts/Poppins-Bold.ttf");
+    font-family: poppins-bold;
+}
+
+@font-face {
+    src: url("/fonts/Poppins-BoldItalic.ttf");
+    font-family: poppins-bold-italic;
+}
+
+@font-face {
+    src: url("/fonts/Poppins-ExtraBold.ttf");
+    font-family: poppins-extra-bold;
+}
+
+@font-face {
+    src: url("/fonts/Poppins-ExtraLight.ttf");
+    font-family: poppins-extra-light;
+}
+
+@font-face {
+    src: url("/fonts/Poppins-ExtraLightItalic.ttf");
+    font-family: Poppins-ExtraLightItalic;
+}
+
+@font-face {
+    src: url("/fonts/Poppins-Italic.ttf");
+    font-family: poppins-italic;
+}
+
+@font-face {
+    src: url("/fonts/Poppins-Light.ttf");
+    font-family: poppins-light;
+}
+
+@font-face {
+    src: url("/fonts/Poppins-LightItalic.ttf");
+    font-family: poppins-light-italic;
+}
+
+@font-face {
+    src: url("/fonts/Poppins-Medium.ttf");
+    font-family: poppins-medium;
+}
+
+@font-face {
+    src: url("/fonts/Poppins-MediumItalic.ttf");
+    font-family: poppins-medium-italic;
+}
+
+@font-face {
+    src: url("/fonts/Poppins-Regular.ttf");
+    font-family: poppins-regular;
+}
+
+@font-face {
+    src: url("/fonts/Poppins-SemiBold.ttf");
+    font-family: poppins-semi-bold;
+}
+
+@font-face {
+    src: url("/fonts/Poppins-SemiBoldItalic.ttf");
+    font-family: popins-semi-bold;
+}
+
+@font-face {
+    src: url("/fonts/Poppins-Thin.ttf");
+    font-family: popins-thhin;
+}
+
+@font-face {
+    src: url("/fonts/Poppins-ThinItalic.ttf");
+    font-family: poppins-thin-italic;
+}
+
+@font-face {
+    src: url("/fonts/font/OpenSans-Bold.ttf");
+    font-family: sans-bold;
+}
+
+@font-face {
+    src: url("/fonts/font/OpenSans-BoldItalic.ttf");
+    font-family: sans-bold-italic;
+}
+
+@font-face {
+    src: url("/fonts/font/OpenSans-ExtraBold.ttf");
+    font-family: sans-extra-bold;
+}
+
+@font-face {
+    src: url("/fonts/font/OpenSans-ExtraBoldItalic.ttf");
+    font-family: sans-extra-bold-italic;
+}
+
+@font-face {
+    src: url("/fonts/font/OpenSans-Italic.ttf");
+    font-family: open-sans-italic;
+}
+
+@font-face {
+    src: url("/fonts/font/OpenSans-Light.ttf");
+    font-family: sans-light;
+}
+
+@font-face {
+    src: url("/fonts/font/OpenSans-LightItalic.ttf");
+    font-family: sans-LightItalic;
+}
+
+@font-face {
+    src: url("/fonts/font/OpenSans-Regular.ttf");
+    font-family: open-sans-regular;
+}
+
+@font-face {
+    src: url("/fonts/font/OpenSans-SemiBold.ttf");
+    font-family: opensans-semi-bold;
+}
+
+@font-face {
+    src: url("/fonts/font/OpenSans-SemiBoldItalic.ttf");
+    font-family: opensans-semibold-itallic;
+}
+
 .banner-class {
     object-fit: cover;
     width: 100%;
@@ -16,6 +151,10 @@
     object-fit: cover;
 }
 
+.ion-icon {
+    color: #fff;
+}
+
 .category-section {
     width: 200px;
     overflow: auto;
@@ -26,6 +165,15 @@
     top: 0;
     right: 0;
     padding: 1.25rem;
+}
+
+h2 {
+    font-size: 2.60vw;
+    font-family: sans-bold;
+}
+
+.view_more_btn {
+    font-size: 0.9375VW;
 }
 
 .pocket_img {
@@ -45,4 +193,106 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+}
+
+.banner__header {
+    font-size: 4.16vw;
+    font-family: sans-bold;
+}
+
+.card-link {
+    font-size: 0.781vw;
+    color: #5E6696;
+}
+
+.card-title {
+    font-size: 1.25VW;
+}
+
+.text-muted {
+    font-size: 0.791vw;
+}
+
+.ratting {
+    background-color: #0DBA35;
+    width: 2.55vw;
+    height: 1.35vw;
+}
+
+.ratting_count {
+    font-size: 0.791vw;
+}
+
+.star-ico {
+    width: 0.8vw;
+}
+
+.banner__offer {
+    font-size: 4.16vw;
+    font-family: poppins-bold;
+}
+
+.card-title {
+    font-size: 2.39vw;
+    font-family: sans-bold;
+}
+
+.card-text {
+    font-size: 1.5625VW;
+    font-family: sans-bold;
+    color: #FFCD00;
+}
+
+.exclusive_offr_shop {
+    font-size: 0.9375VW;
+    font-family: open-sans-regular;
+}
+
+.we_deliver_too {
+    font-size: 1.14vw;
+    font-family: sans-bold;
+}
+
+.services_in_ur_pckt {
+    font-family: sans-bold;
+    font-size: 3.125VW;
+}
+
+.servies_txt {
+    font-family: open-sans-regular;
+    font-size: 0.9375VW;
+}
+
+.pockt_play_img {
+    width: 9.89vw;
+}
+
+.pocket_img {
+    width: 25VW;
+}
+
+.advice__head {
+    font-size: 1.25VW;
+    font-family: sans-bold;
+}
+
+.advice_txt {
+    font-family: open-sans-regular;
+}
+
+.ply_str_futr_img {
+    width: 142px;
+}
+
+h5 {
+    font-size: 1.14vw;
+    font-family: sans-bold;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: violet;
 }

@@ -2,18 +2,34 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
+    <!-- Primary Meta Tags -->
+    <!-- Primary Meta Tags -->
+    <title>Roadyo</title>
+    <meta name="title" content="Roadyo">
+    <meta name="description" content="this is the home UI for the liquor website">
 
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://clever-noether-0ab6ab.netlify.app/">
+    <meta property="og:title" content="Roadyo">
+    <meta property="og:description" content="this is the home UI for the liquor website">
+    <meta property="og:image" content="https://i.postimg.cc/fLnLyBwV/wine0ffer.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://clever-noether-0ab6ab.netlify.app/">
+    <meta property="twitter:title" content="Roadyo">
+    <meta property="twitter:description" content="this is the home UI for the liquor website">
+    <meta property="twitter:image" content="https://i.postimg.cc/fLnLyBwV/wine0ffer.jpg">
 </head>
 
 <body>
@@ -22,7 +38,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white ">
         <a class="navbar-brand" href="#"><img src="./" alt=""><img src="./icons/Liquor Website assets/Group 43633.svg" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon">hvbvjg</span>
         </button>
         <div class="collapse navbar-collapse justify-content-evenly" id="navbarText">
             <ul class="navbar-nav mr-auto">
@@ -49,16 +65,16 @@
 
             </ul>
 
-            <div class="d-flex justify-content-center align-items-center justify-content-evenly">
-                <span class="navbar-text">
+            <div class="d-flex  align-items-center justify-content-between">
+                <span class="navbar-text mr-2">
                     <!-- <img src="./icons/Liquor Website assets/chevron-down.svg" alt=""> -->
                     English
                     <img src="./icons/Liquor Website assets/chevron-down.svg" alt="">  
                 </span>
-                <span class="navbar-text">
+                <span class="navbar-text mr-2">
                      <img src="./icons/Liquor Website assets/basket-outline.svg" alt="">
                 </span>
-                <span class="navbar-text">
+                <span class="profile-img">
                     <img src="./images/1.png" alt="">
                 </span>
             </div>
@@ -72,8 +88,8 @@
         <div class="row">
             <div class="container"></div>
             <div class="container my-5 py-5">
-                <h6 class="banner__header mb-2 mb-md-4 mb-lg-5">Shop Alcohol</h6>
-                <h6 class="banner__offer  mb-2 mb-md-4  mb-lg-5">40% Off</h6>
+                <h6 class="banner__header ">Shop Alcohol</h6>
+                <h6 class="banner__offer">40% Off</h6>
                 <button type="button" class="btn btn-warning px-0 py-1 py-md-1 px-md-3 px-lg-5 py-md-3">Order Now</button>
             </div>
             <!-- <img src="./icons/Liquor Website assets/Group 50784.png" alt="" class="banner-class"> -->
@@ -157,64 +173,64 @@
         <div class="container mb-5">
             <div class="row align-items-center justify-content-between">
                 <div class="col-auto">
-                    <h6 class="my-4 hdr__sans__bold">Stores Near You</h6>
+                    <h2 class="my-4">Stores Near You</h2>
                 </div>
                 <div class="col-auto">
-                    <button type="button" class="btn btn-light view__more__btn">View More</button>
+                    <button type="button" class="btn btn-light view_more_btn">View More</button>
                 </div>
             </div>
 
-            <div class="row d-flex ">
-                <div class="col-12 col-md-6 col-lg-3 my-2">
+            <div class="row justify-content-center ">
+                <div class="col-12 col-md-3 my-2">
                     <div class="card" style="width: 19.27vw;">
                         <img class="card-img-top pt-3 px-3" src="./images/bandy.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Alcohol Shop</h5>
+                            <p class="card-title">Alcohol Shop</p>
                             <h6 class="card-subtitle mb-2 text-muted">Praça Seca, Rio de Janeiro</h6>
-                            <span href="#" class="card-link bg-success">*4</span>
-                            <span href="#" class="card-link">2.75 km</span>
-                            <span href="#" class="card-link">Min Order: $500</span>
+                            <span href="#" class="card-link ratting py-1 px-1"><img src="./icons/star-outline.svg" alt="" class="star-ico"><span class="ratting_count px-1">4</span></span>
+                            <span href="#" class="card-link km-req">2.75 km</span>
+                            <span href="#" class="card-link ">Min Order: $500</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-3 my-2">
+                <div class="col-12 col-md-3 my-2">
                     <div class="card" style="width: 19.27vw;">
                         <img class="card-img-top pt-3 px-3" src="./images/bandy.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Alcohol Shop</h5>
+                            <p class="card-title">Alcohol Shop</p>
                             <h6 class="card-subtitle mb-2 text-muted">Praça Seca, Rio de Janeiro</h6>
-                            <span href="#" class="card-link bg-success">*4</span>
-                            <span href="#" class="card-link">2.75 km</span>
-                            <span href="#" class="card-link">Min Order: $500</span>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-12 col-md-6 col-lg-3 my-2">
-                    <div class="card" style="width: 19.27vw;">
-                        <img class="card-img-top pt-3 px-3" src="./images/bandy.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Alcohol Shop</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Praça Seca, Rio de Janeiro</h6>
-                            <span href="#" class="card-link bg-success">*4</span>
-                            <span href="#" class="card-link">2.75 km</span>
-                            <span href="#" class="card-link">Min Order: $500</span>
+                            <span href="#" class="card-link ratting py-1 px-1"><img src="./icons/star-outline.svg" alt="" class="star-ico"><span class="ratting_count px-1">4</span></span>
+                            <span href="#" class="card-link km-req">2.75 km</span>
+                            <span href="#" class="card-link ">Min Order: $500</span>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="col-12 col-md-6 col-lg-3 my-2">
+                <div class="col-12 col-md-3 my-2">
                     <div class="card" style="width: 19.27vw;">
                         <img class="card-img-top pt-3 px-3" src="./images/bandy.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Alcohol Shop</h5>
+                            <p class="card-title">Alcohol Shop</p>
                             <h6 class="card-subtitle mb-2 text-muted">Praça Seca, Rio de Janeiro</h6>
-                            <span href="#" class="card-link bg-success">*4</span>
-                            <span href="#" class="card-link">2.75 km</span>
-                            <span href="#" class="card-link">Min Order: $500</span>
+                            <span href="#" class="card-link ratting py-1 px-1"><img src="./icons/star-outline.svg" alt="" class="star-ico"><span class="ratting_count px-1">4</span></span>
+                            <span href="#" class="card-link km-req">2.75 km</span>
+                            <span href="#" class="card-link ">Min Order: $500</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-3 my-2">
+                    <div class="card" style="width: 19.27vw;">
+                        <img class="card-img-top pt-3 px-3" src="./images/bandy.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-title">Alcohol Shop</p>
+                            <h6 class="card-subtitle mb-2 text-muted">Praça Seca, Rio de Janeiro</h6>
+                            <span href="#" class="card-link ratting py-1 px-1"><img src="./icons/star-outline.svg" alt="" class="star-ico"><span class="ratting_count px-1">4</span></span>
+                            <span href="#" class="card-link km-req">2.75 km</span>
+                            <span href="#" class="card-link ">Min Order: $500</span>
                         </div>
                     </div>
                 </div>
@@ -234,7 +250,7 @@
                             <div class="card-img-overlay text-right ">
                                 <h4 class="card-title">Exclusive Offers</h4>
                                 <p class="card-text">20% Off</p>
-                                <a href="#" class="btn btn-transparent border-light">SHOP NOW</a>
+                                <a href="#" class="btn btn-transparent exclusive_offr_shop border-light">SHOP NOW</a>
                             </div>
                         </div>
                     </div>
@@ -248,7 +264,7 @@
                             <div class="card-img-overlay text-right ">
                                 <h4 class="card-title">Exclusive Offers</h4>
                                 <p class="card-text">20% Off</p>
-                                <a href="#" class="btn btn-transparent border-light">SHOP NOW</a>
+                                <a href="#" class="btn btn-transparent exclusive_offr_shop  border-light">SHOP NOW</a>
                             </div>
                         </div>
                     </div>
@@ -262,7 +278,7 @@
                             <div class="card-img-overlay text-right ">
                                 <h4 class="card-title">Exclusive Offers</h4>
                                 <p class="card-text">20% Off</p>
-                                <a href="#" class="btn btn-transparent border-light">SHOP NOW</a>
+                                <a href="#" class="btn btn-transparent exclusive_offr_shop  border-light">SHOP NOW</a>
                             </div>
                         </div>
                     </div>
@@ -270,68 +286,69 @@
             </div>
         </div>
 
+
         <!-- popular stores -->
         <div class="container mb-5">
             <div class="row align-items-center justify-content-between">
                 <div class="col-auto">
-                    <h6 class="my-4 hdr__sans__bold">Stores Near You</h6>
+                    <h2 class="my-4">Popular Stores</h2>
                 </div>
                 <div class="col-auto">
                     <button type="button" class="btn btn-light view__more__btn">View More</button>
                 </div>
             </div>
 
-            <div class="row d-flex ">
-                <div class="col-12 col-md-6 col-lg-3 my-2">
+            <div class="row justify-content-center ">
+                <div class="col-12 col-md-3 my-2">
                     <div class="card" style="width: 19.27vw;">
                         <img class="card-img-top pt-3 px-3" src="./images/bandy.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Alcohol Shop</h5>
+                            <p class="card-title">Alcohol Shop</p>
                             <h6 class="card-subtitle mb-2 text-muted">Praça Seca, Rio de Janeiro</h6>
-                            <span href="#" class="card-link bg-success">*4</span>
-                            <span href="#" class="card-link">2.75 km</span>
-                            <span href="#" class="card-link">Min Order: $500</span>
+                            <span href="#" class="card-link ratting py-1 px-1"><img src="./icons/star-outline.svg" alt="" class="star-ico"><span class="ratting_count px-1">4</span></span>
+                            <span href="#" class="card-link km-req">2.75 km</span>
+                            <span href="#" class="card-link ">Min Order: $500</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-3 my-2">
+                <div class="col-12 col-md-3 my-2">
                     <div class="card" style="width: 19.27vw;">
                         <img class="card-img-top pt-3 px-3" src="./images/bandy.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Alcohol Shop</h5>
+                            <p class="card-title">Alcohol Shop</p>
                             <h6 class="card-subtitle mb-2 text-muted">Praça Seca, Rio de Janeiro</h6>
-                            <span href="#" class="card-link bg-success">*4</span>
-                            <span href="#" class="card-link">2.75 km</span>
-                            <span href="#" class="card-link">Min Order: $500</span>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-12 col-md-6 col-lg-3 my-2">
-                    <div class="card" style="width: 19.27vw;">
-                        <img class="card-img-top pt-3 px-3" src="./images/bandy.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Alcohol Shop</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Praça Seca, Rio de Janeiro</h6>
-                            <span href="#" class="card-link bg-success">*4</span>
-                            <span href="#" class="card-link">2.75 km</span>
-                            <span href="#" class="card-link">Min Order: $500</span>
+                            <span href="#" class="card-link ratting py-1 px-1"><img src="./icons/star-outline.svg" alt="" class="star-ico"><span class="ratting_count px-1">4</span></span>
+                            <span href="#" class="card-link km-req">2.75 km</span>
+                            <span href="#" class="card-link ">Min Order: $500</span>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="col-12 col-md-6 col-lg-3 my-2">
+                <div class="col-12 col-md-3 my-2">
                     <div class="card" style="width: 19.27vw;">
                         <img class="card-img-top pt-3 px-3" src="./images/bandy.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Alcohol Shop</h5>
+                            <p class="card-title">Alcohol Shop</p>
                             <h6 class="card-subtitle mb-2 text-muted">Praça Seca, Rio de Janeiro</h6>
-                            <span href="#" class="card-link bg-success">*4</span>
-                            <span href="#" class="card-link">2.75 km</span>
-                            <span href="#" class="card-link">Min Order: $500</span>
+                            <span href="#" class="card-link ratting py-1 px-1"><img src="./icons/star-outline.svg" alt="" class="star-ico"><span class="ratting_count px-1">4</span></span>
+                            <span href="#" class="card-link km-req">2.75 km</span>
+                            <span href="#" class="card-link ">Min Order: $500</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-3 my-2">
+                    <div class="card" style="width: 19.27vw;">
+                        <img class="card-img-top pt-3 px-3" src="./images/bandy.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-title">Alcohol Shop</p>
+                            <h6 class="card-subtitle mb-2 text-muted">Praça Seca, Rio de Janeiro</h6>
+                            <span href="#" class="card-link ratting py-1 px-1"><img src="./icons/star-outline.svg" alt="" class="star-ico"><span class="ratting_count px-1">4</span></span>
+                            <span href="#" class="card-link km-req">2.75 km</span>
+                            <span href="#" class="card-link ">Min Order: $500</span>
                         </div>
                     </div>
                 </div>
@@ -351,7 +368,7 @@
                             <div class="card-img-overlay text-right ">
                                 <h4 class="card-title">Exclusive Offers</h4>
                                 <p class="card-text">20% Off</p>
-                                <a href="#" class="btn btn-transparent border-light">SHOP NOW</a>
+                                <a href="#" class="btn btn-transparent exclusive_offr_shop border-light">SHOP NOW</a>
                             </div>
                         </div>
                     </div>
@@ -365,7 +382,7 @@
                             <div class="card-img-overlay text-right ">
                                 <h4 class="card-title">Exclusive Offers</h4>
                                 <p class="card-text">20% Off</p>
-                                <a href="#" class="btn btn-transparent border-light">SHOP NOW</a>
+                                <a href="#" class="btn btn-transparent exclusive_offr_shop  border-light">SHOP NOW</a>
                             </div>
                         </div>
                     </div>
@@ -379,7 +396,7 @@
                             <div class="card-img-overlay text-right ">
                                 <h4 class="card-title">Exclusive Offers</h4>
                                 <p class="card-text">20% Off</p>
-                                <a href="#" class="btn btn-transparent border-light">SHOP NOW</a>
+                                <a href="#" class="btn btn-transparent exclusive_offr_shop  border-light">SHOP NOW</a>
                             </div>
                         </div>
                     </div>
@@ -392,64 +409,64 @@
         <div class="container mb-5">
             <div class="row align-items-center justify-content-between">
                 <div class="col-auto">
-                    <h6 class="my-4 hdr__sans__bold">Stores Near You</h6>
+                    <h2 class="my-4">Recommended For You</h2>
                 </div>
                 <div class="col-auto">
                     <button type="button" class="btn btn-light view__more__btn">View More</button>
                 </div>
             </div>
 
-            <div class="row d-flex ">
-                <div class="col-12 col-md-6 col-lg-3 my-2">
+            <div class="row justify-content-center ">
+                <div class="col-12 col-md-3 my-2">
                     <div class="card" style="width: 19.27vw;">
                         <img class="card-img-top pt-3 px-3" src="./images/bandy.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Alcohol Shop</h5>
+                            <p class="card-title">Alcohol Shop</p>
                             <h6 class="card-subtitle mb-2 text-muted">Praça Seca, Rio de Janeiro</h6>
-                            <span href="#" class="card-link bg-success">*4</span>
-                            <span href="#" class="card-link">2.75 km</span>
-                            <span href="#" class="card-link">Min Order: $500</span>
+                            <span href="#" class="card-link ratting py-1 px-1"><img src="./icons/star-outline.svg" alt="" class="star-ico"><span class="ratting_count px-1">4</span></span>
+                            <span href="#" class="card-link km-req">2.75 km</span>
+                            <span href="#" class="card-link ">Min Order: $500</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-md-6 col-lg-3 my-2">
+                <div class="col-12 col-md-3 my-2">
                     <div class="card" style="width: 19.27vw;">
                         <img class="card-img-top pt-3 px-3" src="./images/bandy.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Alcohol Shop</h5>
+                            <p class="card-title">Alcohol Shop</p>
                             <h6 class="card-subtitle mb-2 text-muted">Praça Seca, Rio de Janeiro</h6>
-                            <span href="#" class="card-link bg-success">*4</span>
-                            <span href="#" class="card-link">2.75 km</span>
-                            <span href="#" class="card-link">Min Order: $500</span>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-12 col-md-6 col-lg-3 my-2">
-                    <div class="card" style="width: 19.27vw;">
-                        <img class="card-img-top pt-3 px-3" src="./images/bandy.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Alcohol Shop</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Praça Seca, Rio de Janeiro</h6>
-                            <span href="#" class="card-link bg-success">*4</span>
-                            <span href="#" class="card-link">2.75 km</span>
-                            <span href="#" class="card-link">Min Order: $500</span>
+                            <span href="#" class="card-link ratting py-1 px-1"><img src="./icons/star-outline.svg" alt="" class="star-ico"><span class="ratting_count px-1">4</span></span>
+                            <span href="#" class="card-link km-req">2.75 km</span>
+                            <span href="#" class="card-link ">Min Order: $500</span>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="col-12 col-md-6 col-lg-3 my-2">
+                <div class="col-12 col-md-3 my-2">
                     <div class="card" style="width: 19.27vw;">
                         <img class="card-img-top pt-3 px-3" src="./images/bandy.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Alcohol Shop</h5>
+                            <p class="card-title">Alcohol Shop</p>
                             <h6 class="card-subtitle mb-2 text-muted">Praça Seca, Rio de Janeiro</h6>
-                            <span href="#" class="card-link bg-success">*4</span>
-                            <span href="#" class="card-link">2.75 km</span>
-                            <span href="#" class="card-link">Min Order: $500</span>
+                            <span href="#" class="card-link ratting py-1 px-1"><img src="./icons/star-outline.svg" alt="" class="star-ico"><span class="ratting_count px-1">4</span></span>
+                            <span href="#" class="card-link km-req">2.75 km</span>
+                            <span href="#" class="card-link ">Min Order: $500</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-3 my-2">
+                    <div class="card" style="width: 19.27vw;">
+                        <img class="card-img-top pt-3 px-3" src="./images/bandy.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-title">Alcohol Shop</p>
+                            <h6 class="card-subtitle mb-2 text-muted">Praça Seca, Rio de Janeiro</h6>
+                            <span href="#" class="card-link ratting py-1 px-1"><img src="./icons/star-outline.svg" alt="" class="star-ico"><span class="ratting_count px-1">4</span></span>
+                            <span href="#" class="card-link km-req">2.75 km</span>
+                            <span href="#" class="card-link ">Min Order: $500</span>
                         </div>
                     </div>
                 </div>
@@ -469,7 +486,7 @@
                             <div class="card-img-overlay text-right ">
                                 <h4 class="card-title">Exclusive Offers</h4>
                                 <p class="card-text">20% Off</p>
-                                <a href="#" class="btn btn-transparent border-light">SHOP NOW</a>
+                                <a href="#" class="btn btn-transparent exclusive_offr_shop border-light">SHOP NOW</a>
                             </div>
                         </div>
                     </div>
@@ -483,7 +500,7 @@
                             <div class="card-img-overlay text-right ">
                                 <h4 class="card-title">Exclusive Offers</h4>
                                 <p class="card-text">20% Off</p>
-                                <a href="#" class="btn btn-transparent border-light">SHOP NOW</a>
+                                <a href="#" class="btn btn-transparent exclusive_offr_shop  border-light">SHOP NOW</a>
                             </div>
                         </div>
                     </div>
@@ -497,7 +514,7 @@
                             <div class="card-img-overlay text-right ">
                                 <h4 class="card-title">Exclusive Offers</h4>
                                 <p class="card-text">20% Off</p>
-                                <a href="#" class="btn btn-transparent border-light">SHOP NOW</a>
+                                <a href="#" class="btn btn-transparent exclusive_offr_shop  border-light">SHOP NOW</a>
                             </div>
                         </div>
                     </div>
@@ -511,9 +528,9 @@
         <div class="container px-5">
             <div class="row justify-content-between">
                 <div class="col-auto py-3   w-50">
-                    <h6>Services in your pocket</h6>
-                    <p class="w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum error rem nostrum tenetur esse asperiores culpa at, corrupti minus quas?</p>
-                    <img src="./icons/Liquor Website assets/Group 50798.png" alt="">
+                    <h6 class="services_in_ur_pckt">Services in your pocket</h6>
+                    <p class="w-75 servies_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum error rem nostrum tenetur esse asperiores culpa at, corrupti minus quas?</p>
+                    <img src="./icons/Liquor Website assets/Group 50798.png" alt="" class="pockt_play_img">
                 </div>
                 <div class="col-auto">
                     <img src="./icons/Liquor Website assets/Group 50786.png" alt="" class="pocket_img">
@@ -532,21 +549,21 @@
                     <div class="row align-items-center justify-content-around">
                         <div class="col-md-4 text-center mb-4 mb-md-0">
                             <img class="mb-4" src="./icons/Liquor Website assets/Group 50793.svg" alt="">
-                            <p class="mb-1 advice__header">Save Time</p>
+                            <p class="mb-1 advice__head">Save Time</p>
                             <p class="px-5 mb-0 advice_txt">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry
                             </p>
                         </div>
                         <div class="col-md-4 text-center mb-4 mb-md-0">
                             <img class="mb-4" src="icons/Liquor Website assets/Group 50794.svg" alt=" ">
-                            <p class="mb-1 advice__header ">In Experts Hands</p>
+                            <p class="mb-1 advice__head ">In Experts Hands</p>
                             <p class="px-5 mb-0 advice_txt ">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry
                             </p>
                         </div>
                         <div class="col-md-4 text-center mb-4 mb-md-0 ">
                             <img class="mb-4 " src="./icons/Liquor Website assets/Group 50795.svg " alt=" ">
-                            <p class="mb-1 advice__header ">100% Quality</p>
+                            <p class="mb-1 advice__head ">100% Quality</p>
                             <p class="px-5 mb-0 advice_txt ">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry
                             </p>
@@ -564,173 +581,173 @@
     <div class="col-12 ">
         <div class="row deliver-to mb-5 ">
             <div class="container px-5 ">
-                <h6 class="my-5 text-center ">We deliver to</h6>
-                <div class="row justify-content-between ">
+                <h6 class="my-5 text-center we_deliver_too ">We deliver to</h6>
+                <div class="row deliver-too justify-content-between ">
                     <div class="col-auto ">
-                        <p>Rio Branco</p>
+                        <p>delhi</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Juazeiro</p>
+                        <p>mumbai</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Fundão</p>
+                        <p>chennai</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Cuiabá</p>
-                    </div>
-                </div>
-                <div class="row justify-content-between ">
-                    <div class="col-auto ">
-                        <p>Rio Branco</p>
-                    </div>
-                    <div class="col-auto ">
-                        <p>Juazeiro</p>
-                    </div>
-                    <div class="col-auto ">
-                        <p>Fundão</p>
-                    </div>
-                    <div class="col-auto ">
-                        <p>Cuiabá</p>
+                        <p>pune</p>
                     </div>
                 </div>
                 <div class="row justify-content-between ">
                     <div class="col-auto ">
-                        <p>Rio Branco</p>
+                        <p>delhi</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Juazeiro</p>
+                        <p>mumbai</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Fundão</p>
+                        <p>chennai</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Cuiabá</p>
-                    </div>
-                </div>
-                <div class="row justify-content-between ">
-                    <div class="col-auto ">
-                        <p>Rio Branco</p>
-                    </div>
-                    <div class="col-auto ">
-                        <p>Juazeiro</p>
-                    </div>
-                    <div class="col-auto ">
-                        <p>Fundão</p>
-                    </div>
-                    <div class="col-auto ">
-                        <p>Cuiabá</p>
+                        <p>pune</p>
                     </div>
                 </div>
                 <div class="row justify-content-between ">
                     <div class="col-auto ">
-                        <p>Rio Branco</p>
+                        <p>delhi</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Juazeiro</p>
+                        <p>mumbai</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Fundão</p>
+                        <p>chennai</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Cuiabá</p>
-                    </div>
-                </div>
-                <div class="row justify-content-between ">
-                    <div class="col-auto ">
-                        <p>Rio Branco</p>
-                    </div>
-                    <div class="col-auto ">
-                        <p>Juazeiro</p>
-                    </div>
-                    <div class="col-auto ">
-                        <p>Fundão</p>
-                    </div>
-                    <div class="col-auto ">
-                        <p>Cuiabá</p>
+                        <p>pune</p>
                     </div>
                 </div>
                 <div class="row justify-content-between ">
                     <div class="col-auto ">
-                        <p>Rio Branco</p>
+                        <p>delhi</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Juazeiro</p>
+                        <p>mumbai</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Fundão</p>
+                        <p>chennai</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Cuiabá</p>
-                    </div>
-                </div>
-                <div class="row justify-content-between ">
-                    <div class="col-auto ">
-                        <p>Rio Branco</p>
-                    </div>
-                    <div class="col-auto ">
-                        <p>Juazeiro</p>
-                    </div>
-                    <div class="col-auto ">
-                        <p>Fundão</p>
-                    </div>
-                    <div class="col-auto ">
-                        <p>Cuiabá</p>
+                        <p>pune</p>
                     </div>
                 </div>
                 <div class="row justify-content-between ">
                     <div class="col-auto ">
-                        <p>Rio Branco</p>
+                        <p>delhi</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Juazeiro</p>
+                        <p>mumbai</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Fundão</p>
+                        <p>chennai</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Cuiabá</p>
-                    </div>
-                </div>
-                <div class="row justify-content-between ">
-                    <div class="col-auto ">
-                        <p>Rio Branco</p>
-                    </div>
-                    <div class="col-auto ">
-                        <p>Juazeiro</p>
-                    </div>
-                    <div class="col-auto ">
-                        <p>Fundão</p>
-                    </div>
-                    <div class="col-auto ">
-                        <p>Cuiabá</p>
+                        <p>pune</p>
                     </div>
                 </div>
                 <div class="row justify-content-between ">
                     <div class="col-auto ">
-                        <p>Rio Branco</p>
+                        <p>delhi</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Juazeiro</p>
+                        <p>mumbai</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Fundão</p>
+                        <p>chennai</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Cuiabá</p>
+                        <p>pune</p>
                     </div>
                 </div>
                 <div class="row justify-content-between ">
                     <div class="col-auto ">
-                        <p>Rio Branco</p>
+                        <p>delhi</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Juazeiro</p>
+                        <p>mumbai</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Fundão</p>
+                        <p>chennai</p>
                     </div>
                     <div class="col-auto ">
-                        <p>Cuiabá</p>
+                        <p>pune</p>
+                    </div>
+                </div>
+                <div class="row justify-content-between ">
+                    <div class="col-auto ">
+                        <p>delhi</p>
+                    </div>
+                    <div class="col-auto ">
+                        <p>mumbai</p>
+                    </div>
+                    <div class="col-auto ">
+                        <p>chennai</p>
+                    </div>
+                    <div class="col-auto ">
+                        <p>pune</p>
+                    </div>
+                </div>
+                <div class="row justify-content-between ">
+                    <div class="col-auto ">
+                        <p>delhi</p>
+                    </div>
+                    <div class="col-auto ">
+                        <p>mumbai</p>
+                    </div>
+                    <div class="col-auto ">
+                        <p>chennai</p>
+                    </div>
+                    <div class="col-auto ">
+                        <p>pune</p>
+                    </div>
+                </div>
+                <div class="row justify-content-between ">
+                    <div class="col-auto ">
+                        <p>delhi</p>
+                    </div>
+                    <div class="col-auto ">
+                        <p>mumbai</p>
+                    </div>
+                    <div class="col-auto ">
+                        <p>chennai</p>
+                    </div>
+                    <div class="col-auto ">
+                        <p>pune</p>
+                    </div>
+                </div>
+                <div class="row justify-content-between ">
+                    <div class="col-auto ">
+                        <p>delhi</p>
+                    </div>
+                    <div class="col-auto ">
+                        <p>mumbai</p>
+                    </div>
+                    <div class="col-auto ">
+                        <p>chennai</p>
+                    </div>
+                    <div class="col-auto ">
+                        <p>pune</p>
+                    </div>
+                </div>
+                <div class="row justify-content-between ">
+                    <div class="col-auto ">
+                        <p>delhi</p>
+                    </div>
+                    <div class="col-auto ">
+                        <p>mumbai</p>
+                    </div>
+                    <div class="col-auto ">
+                        <p>chennai</p>
+                    </div>
+                    <div class="col-auto ">
+                        <p>pune</p>
                     </div>
                 </div>
 
@@ -740,72 +757,62 @@
     </div>
 
 
+    <footer class="page-footer ">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-2 mx-auto my-4 ">
+                    <h5 class="mx-4 futr_dwld">Download Roadyo App</h5>
+                    <img src="./icons/Liquor Website assets/Group 50789.png" alt="" class="ply_str_futr_img">
+                </div>
 
-    <!-- <div class="col-12">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-auto ">
+
+                <div class="col-md-2 mx-auto my-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+
+                        <li class="my-2">
+                            <a href="#">About us</a>
+
+                        </li>
+                        <li class="my-2">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="my-2">
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="col-md-2 mx-auto my-4">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-2">
+                            <a href="#">Join As a Store</a>
+                        </li>
+                        <li class="my-2">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li class="my-2">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 mx-auto my-4">
+                    <h5>Follow Us</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-2 d-flex justify-content-around">
+                            <a href="#"><img src="./images/Group 50462.svg" alt="" class="mr-2"><img src="./icons/Liquor Website assets/facebook.svg" alt=""></a>
+                            <a href="#"><img src="./images/Group 50463.svg" alt=""><img src="./icons/Liquor Website assets/twitter.svg" alt=""></a>
+                        </li>
+
+                    </ul>
                 </div>
             </div>
-        </div>
-    </div> -->
 
-    <footer class="d-flex justify-content-between bg-light">
-        <!-- <div class=" container-flui "> -->
-        <div class="box mx-5">
-            <h3>Download Roadyo App</h3>
-            <img src="./icons/Liquor Website assets/Group 50798.png " alt=" ">
         </div>
-        <div class="box ">
-            <h3>Quik Links</h3>
-            <ul class="list-unstyled ">
 
-                <li>
-                    <a href="# ">About us</a>
-                </li>
-
-                <li>
-                    <a href="# ">Blog</a>
-                </li>
-                <li>
-                    <a href="# ">Contact us</a>
-                </li>
-
-            </ul>
-        </div>
-        <div class="box ">
-            <h3>Company</h3>
-            <div>
-                <ul class="list-unstyled">
-                    <li>
-                        <span>Join As a Store</span>
-                    </li>
-                    <li>
-                        <span>Privacy Policy</span>
-                    </li>
-                    <li>
-                        <span>Terms and Conditions</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="box instagram-api ">
-            <h3>Terms and Conditions</h3>
-            <div class="post-wrap ">
-                <div>
-                    <img src="./icons/Liquor Website assets/facebook.svg" alt=" ">
-                </div>
-                <div>
-                    <img src="./icons/Liquor Website assets/twitter.svg " alt=" ">
-                </div>
-                <div>
-                    <img src="./icons/Liquor Website assets/instagram.svg " alt=" ">
-                </div>
-                <div>
-                    <img src="./icons/Liquor Website assets/linkedin.svg" alt=" ">
-                </div>
-            </div>
-        </div>
     </footer>
 
     <div class="copyright my-1">
@@ -815,6 +822,12 @@
     </div>
 
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 
 </html>
