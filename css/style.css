@@ -189,12 +189,17 @@ img {
 .bannner-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/icons/Liquor Website assets/Group 50784.png");
     height: 50%;
-    width: 100%;
+    /* width: 100%; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
 }
+
+
+/* .category__section {
+    width: 100%;
+} */
 
 .banner__header {
     font-size: 4.16vw;
